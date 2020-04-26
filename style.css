@@ -31,4 +31,40 @@ body {
     display: block;
     margin-bottom: 5px;
   }
+  .form input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .form input:focus {
+    outline: 0;
+    border-color: #777;
+  }
   
+  form small {
+    color: #e74c32;
+    position: absolute;
+    visibility: hidden;
+  }
+  .form.success input {
+    border-color: #2ecc71;
+  }
+  .form.error input {
+    border-color: #e74c32;
+  }
+  form button {
+    cursor: pointer;
+    background-color: #3498db;
+    border: 2px splid #3498db;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+  }
+    
